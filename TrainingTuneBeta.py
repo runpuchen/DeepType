@@ -15,9 +15,8 @@ from KmeansParaSelection import *
 import os
 import sys
 
-key = int(sys.argv[1])
-num_gene = 2000*key
-print('number of genes: ', num_gene)
+
+num_gene = 1000
 local_dir = os.getcwd()
 
 def make_train_validation(data1, data2, targets, k, n_fold):
@@ -85,8 +84,8 @@ method = 'silhouette'
 
 # Import biology data
 
-filename = local_dir+ '/BRCA/2View/' + 'BRCA2View' + str(18000) + '.mat'
-result_dir = local_dir+ '/BRCA/results/2View/' + str(num_gene) + '/'
+filename = local_dir+  'BRCA1View' + str(num_gene) + '.mat'
+result_dir = local_dir+ 'results/1View/' + str(num_gene) + '/'
 
 if not os.path.exists(result_dir):
     os.makedirs(result_dir)
