@@ -8,7 +8,8 @@ Usage:
 
 Run in command line with required command arguments:
 
-python DeepType.py
+python PreTrainingTuneALpha.py
+python TrainingTuneBeta.py
 
 
 
