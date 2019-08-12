@@ -4,8 +4,11 @@ Deep Learning Approach to Identifying Breast Cancer Subtypes Using High-Dimensio
 
 # Code Organization
 •	PreTrainingTuneALpha.py
+
 •	TrainingTuneBeta.py
+
 •	KmeansParaSelection.py
+
 •	load_biology_data.py
 
 # Requirements
@@ -27,6 +30,7 @@ targets: N*1 numerical vector. The ith element denotes the class that the ith sa
 
 # Set parameters
 learning_rate: learning rate
+
 num_pretrain: number of batches in pretraining process
 num_train: number of training steps in each epoch of training process
 num_train_epoch: number of epochs in training process
