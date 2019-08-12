@@ -1,31 +1,31 @@
-#DeepType
+# DeepType
 
 Deep Learning Approach to Identifying Breast Cancer Subtypes Using High-Dimensional Genomic Data
 
-#Code Organization
+# Code Organization
 •	PreTrainingTuneALpha.py
 •	TrainingTuneBeta.py
 •	KmeansParaSelection.py
 •	load_biology_data.py
 
-#Requirements
+# Requirements
 •	python
 •	tensorflow
 
-#Implement and Activate Tensorflow Environment under Conda
-##Implement:
+# Implement and Activate Tensorflow Environment under Conda
+## Implement:
 conda create -n tensorflow_env tensorflow
-##Activation:
+## Activation:
 conda activate tensorflow_env
 
-#Use the software
-##Data format 
+# Use the software
+## Data format 
 filename.mat file
-##Variables
+## Variables
 Data: D*N numerical matrix. Each row is a gene, and each column is a sample. The genes should be ranked in the descending order by variances across samples.
 targets: N*1 numerical vector. The ith element denotes the class that the ith sample belongs to.
 
-#Set parameters
+# Set parameters
 learning_rate: learning rate
 num_pretrain: number of batches in pretraining process
 num_train: number of training steps in each epoch of training process
@@ -43,9 +43,7 @@ lambda1_list: list of sparsity penalty coefficient
 lambda2_list: list of K-means penalty coefficient
 n_fold: number of folds
 
-
-
-#Run in command line with required command arguments:
+# Run in command line with required command arguments:
 
 python PreTrainingTuneALpha.py
 
