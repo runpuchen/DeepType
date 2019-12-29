@@ -72,8 +72,8 @@ def set_flags():
     flags.DEFINE_boolean('initialize', False, 'whether use initialization')
     flags.DEFINE_boolean('visualization', False, 'visualization middle results') # Use Matlab tsne toolbox for better visualization
 
-    flags.DEFINE_float('beta', BETA, 'K-means loss coefficient.')
-    flags.DEFINE_float('alpha', ALPHA, 'sparsity penalty.')
+    flags.DEFINE_float('beta', ALPHA, 'K-means loss coefficient.')
+    flags.DEFINE_float('alpha', LAMBDA, 'sparsity penalty.')
     flags.DEFINE_boolean('parameter_tune', False, 'Tune parameters or not.')
 
 
