@@ -27,8 +27,8 @@ def set_flags():
     LEARNING_RATE = 1.e-3
     NUM_SUPERVISED_BATCHES = 1200 # shorter training process to save time
     NUM_TRAIN_BATCHES = 10000 # shorter training process to save time
-    ALPHA = 0.006
-    BETA = 1.2
+    LAMBDA = 0.006
+    ALPHA = 1.2
 
     DATA_DIR = 'data/'
     DATA_FILE = 'BRCA1View20000.mat'
