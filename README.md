@@ -67,9 +67,9 @@ conda activate tensorflow_env
 
   NUM_TRAIN_STEPS: the number of training steps in each epoch.
 
-  ALPHA: sparsity penalty coefficient.
+  LAMBDA: sparsity penalty coefficient.
 
-  BETA: K-means loss coefficient.
+  ALPHA: K-means loss coefficient.
 
   DATA_DIR: Directory to put the training data.
 
