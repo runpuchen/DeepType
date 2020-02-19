@@ -63,8 +63,6 @@ conda activate tensorflow_env
 
   NUM_SUPERVISED_BATCHES: the number of training steps in the supervised initialization.
 
-  NUM_TRAIN_EPOCHS: the number of training epochs in the supervised-unsupervised training.
-
   NUM_TRAIN_BATCHES: the number of training steps in each epoch.
 
   LAMBDA: sparsity penalty coefficient.
